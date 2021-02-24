@@ -5,7 +5,6 @@ piles.sort(reverse=True)
 coin_count = 0
 
 for x in range(num_triple_groups):
-    print(x, 2*x + 1)
     coin_count += piles[2*x + 1]
 
 print(coin_count)
